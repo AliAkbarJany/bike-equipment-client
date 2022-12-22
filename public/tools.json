@@ -1,0 +1,56 @@
+[
+    {
+      "_id": 1,
+      "name": "Head Light",
+      "description": "AHO (Automatic Headlights On) Hedalight",
+      "price": "3500 BDT",
+      "minimumQuantity": "250",
+      "availableQuantity": "400",
+      "img": "https://i.ibb.co/b6KtxGr/equipments1.png"
+    },
+    {
+      "_id": 2,
+      "name": "Fule Tank",
+      "description": "Fuel capacity 10.5 litres",
+      "price": "10000 BDT",
+      "minimumQuantity": "70",
+      "availableQuantity": "150",
+      "img": "https://i.ibb.co/s1Lnxjn/equipments2.png"
+    },
+    {
+      "_id": 3,
+      "name": "Exhaust Pipe",
+      "description": "Full-system exhaust pipe",
+      "price": "7000 BDT",
+      "minimumQuantity": "90",
+      "availableQuantity": "190",
+      "img": "https://i.ibb.co/ZG9QWmv/equipments3.png"
+    },
+    {
+      "_id": 4,
+      "name": "Engine",
+      "description": "Inline triple and Inline four",
+      "price": "90000 BDT",
+      "minimumQuantity": "50",
+      "availableQuantity": "200",
+      "img": "https://i.ibb.co/LzxwfkN/equipments4.png"
+    },
+    {
+      "_id": 5,
+      "name": "speedoMeter",
+      "description": "LCD universl digital meter",
+      "price": "3000 BDT",
+      "minimumQuantity": "230",
+      "availableQuantity": "700",
+      "img": "https://i.ibb.co/Hg39JqY/equipments5.png"
+    },
+    {
+      "_id": 6,
+      "name": "Helmet",
+      "description": "GDM DK-120 Matte Black Full Face Motorcycle Helmet",
+      "price": "1500 BDT",
+      "minimumQuantity": "300",
+      "availableQuantity": "750",
+      "img": "https://i.ibb.co/CPqHpq9/equipments6.png"
+    }
+  ]
