@@ -4,7 +4,7 @@ import Loading from '../Shared/Loading';
 import CustomerRow from './CustomerRow';
 const Customers = () => {
 
-    const { data: customers, isLoading, refetch } = useQuery('customers', () => fetch('https://guarded-caverns-84789.herokuapp.com/customer', {
+    const { data: customers, isLoading, refetch } = useQuery('customers', () => fetch('https://bike-equipments-server.onrender.com/customer', {
         method: 'GET',
         headers: {
             'authorization': `Bearer ${localStorage.getItem('accessToken')}`
@@ -23,8 +23,8 @@ const Customers = () => {
                         <tr>
                             <th></th>
                             <th>Email</th>
-                            <th>Job</th>
-                            <th>Favorite Color</th>
+                            <th>Create Admin</th>
+                            <th>Delete Customer</th>
                         </tr>
                     </thead>
                     <tbody>

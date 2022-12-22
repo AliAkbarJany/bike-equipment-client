@@ -12,7 +12,7 @@ const Purchase = () => {
     const [user, loading] = useAuthState(auth);
     console.log(user)
 
-    // const { data: tool, isLoading, error } = useQuery(['tool', id], () => fetch(`https://guarded-caverns-84789.herokuapp.com/tools/${id}`).then(res => res.json()))
+    // const { data: tool, isLoading, error } = useQuery(['tool', id], () => fetch(`https://bike-equipments-server.onrender.com/tools/${id}`).then(res => res.json()))
     // // const{img,name,minimumQuantity,availableQuantity,description,price}=tool
 
     // if (isLoading) {
@@ -21,7 +21,7 @@ const Purchase = () => {
 
     const [tool,setTool]=useState({})
     useEffect(()=>{
-        fetch(`https://guarded-caverns-84789.herokuapp.com/tools/${id}`)
+        fetch(`https://bike-equipments-server.onrender.com/tools/${id}`)
         .then(res=>res.json())
         .then(data=>{
             console.log(data)
@@ -61,7 +61,7 @@ const Purchase = () => {
             alert('Be Careful about Available Quantity')
         }
         else{
-            fetch('https://guarded-caverns-84789.herokuapp.com/confirm',{
+            fetch('https://bike-equipments-server.onrender.com/confirm',{
                 method:'POST',
                 headers:{
                     'content-type':'application/json'

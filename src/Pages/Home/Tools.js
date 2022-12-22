@@ -7,7 +7,7 @@ const Tools = () => {
     // const [purchase,setPurchase]=useState(null)
 
     useEffect(() => {
-        fetch('https://guarded-caverns-84789.herokuapp.com/tools')
+        fetch('https://bike-equipments-server.onrender.com/tools')
             .then(res => res.json())
             .then(data => {
                 // console.log(data)

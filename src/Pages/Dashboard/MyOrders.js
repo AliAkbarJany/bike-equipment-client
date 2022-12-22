@@ -8,7 +8,7 @@ const MyOrders = () => {
     const [orders, setOrders] = useState([])
 
     useEffect(() => {
-        fetch(`https://guarded-caverns-84789.herokuapp.com/confirm?email=${user.email}`, {
+        fetch(`https://bike-equipments-server.onrender.com/confirm?email=${user.email}`, {
             method: 'GET',
             headers: {
                 'authorization': `Bearer ${localStorage.getItem('accessToken')}`

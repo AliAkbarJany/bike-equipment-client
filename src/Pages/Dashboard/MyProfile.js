@@ -9,7 +9,7 @@ const MyProfile = () => {
     const [user, loading, error] = useAuthState(auth);
     console.log(user)
 
-    // const { data: customers, isLoading } = useQuery('customers', () => fetch('https://guarded-caverns-84789.herokuapp.com/customer').then(res => res.json()))
+    // const { data: customers, isLoading } = useQuery('customers', () => fetch('https://bike-equipments-server.onrender.com/customer').then(res => res.json()))
     // if (isLoading) {
     //     return <Loading></Loading>
     // }
@@ -22,7 +22,7 @@ const MyProfile = () => {
             phoneNumber:event.target.phone.value
         }
         event.preventDefault()
-        fetch(`https://guarded-caverns-84789.herokuapp.com/customer/${user?.email}`, {
+        fetch(`https://bike-equipments-server.onrender.com/customer/${user?.email}`, {
             method: 'PUT',
             headers: {
                 'content-type':'application/json'

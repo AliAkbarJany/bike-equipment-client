@@ -12,7 +12,7 @@ const AddReview = () => {
             review
         }
         console.log(review)
-        fetch('https://guarded-caverns-84789.herokuapp.com/reviews',{
+        fetch('https://bike-equipments-server.onrender.com/reviews',{
             method: 'POST',
             headers: {
                 'content-type': 'application/json',

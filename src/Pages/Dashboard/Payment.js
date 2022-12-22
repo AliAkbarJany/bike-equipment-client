@@ -10,7 +10,7 @@ const stripePromise = loadStripe('pk_test_51LEr9KBhhQqyCqe6pdI3j9qwMMZZCdC2wHTxL
 
 const Payment = () => {
     const { id } = useParams()
-    const url = `https://guarded-caverns-84789.herokuapp.com/confirm/${id}`
+    const url = `https://bike-equipments-server.onrender.com/confirm/${id}`
     const { data: order, isLoading } = useQuery(['confirm', id], () => fetch(url).then(res => res.json()));
 
     if (isLoading) {

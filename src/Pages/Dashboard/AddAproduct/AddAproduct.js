@@ -21,7 +21,7 @@ const AddAproduct = () => {
             
         }
 
-        fetch('https://guarded-caverns-84789.herokuapp.com/tools', {
+        fetch('https://bike-equipments-server.onrender.com/tools', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

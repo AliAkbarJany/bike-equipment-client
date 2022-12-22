@@ -7,7 +7,7 @@ const useAdmin=(user)=>{
         const email=user?.email
         
         if(email){
-            fetch(`https://guarded-caverns-84789.herokuapp.com/admin/${email}`,{
+            fetch(`https://bike-equipments-server.onrender.com/admin/${email}`,{
                 method:'GET',
                 headers:{
                     'content-type':'application/json',

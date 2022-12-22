@@ -15,7 +15,7 @@ const CheckoutForm = ({ order }) => {
     // console.log('amount', amount)
 
     useEffect(() => {
-        fetch('https://guarded-caverns-84789.herokuapp.com/create-payment-intent', {
+        fetch('https://bike-equipments-server.onrender.com/create-payment-intent', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

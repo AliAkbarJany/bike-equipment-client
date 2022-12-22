@@ -4,7 +4,7 @@ const AllReviews = () => {
     const [allReviews, setAllReviews] = useState([])
 
     useEffect(() => {
-        fetch('https://guarded-caverns-84789.herokuapp.com/reviews')
+        fetch('https://bike-equipments-server.onrender.com/reviews')
             .then(res => res.json())
             .then(data => {
                 console.log(data)

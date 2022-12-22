@@ -11,7 +11,7 @@ const useToken=user=>{
         console.log('current email',currentUser)
         
         if(email){
-            fetch(`https://guarded-caverns-84789.herokuapp.com/customer/${email}`,{
+            fetch(`https://bike-equipments-server.onrender.com/customer/${email}`,{
                 method:'PUT',
                 headers:{
                     'content-type':'application/json'
